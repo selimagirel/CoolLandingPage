@@ -98,15 +98,15 @@ export default function Hero() {
                     initial={{ opacity: 0, x: 275, y: 100 }}
                     className=" absolute right-80 -top-4 hidden lg:block"
                 >
-                    <Pointer name="Rejected!" color="red" />
+                    <Pointer name="Mike!" color="red" />
                 </motion.div>
                 <div className="flex justify-center">
                     <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
-                        ✨ Learning from Rejections
+                        ✨$7.5M seed round raised
                     </div>
                 </div>
                 <h1 className="text-6xl lg:text-8xl md:text-7xl font-medium text-center mt-6">
-                    Impactful design created effortlessly
+                    Impactful design, created effortlessly
                 </h1>
                 <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
                     Upload your CV, select the company that rejected you, and
