@@ -33,23 +33,23 @@ export default function Faqs() {
         <section className="py-24">
             <div className="container">
                 <div className="flex justify-center">
-                    <Tag>Faqs</Tag>
+                    <Tag className="bg-neutral-900">Faqs</Tag>
                 </div>
-                <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
+                <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto text-black">
                     Questions we got{" "}
-                    <span className="text-lime-400">answers</span>
+                    <span className="text-lime-600">answers</span>
                 </h2>
                 <div className="mt-12 flex flex-col gap-6 max-w-xl mx-auto">
                     {faqs.map((faq, faqIndex) => (
                         <div
                             key={faq.question}
-                            className="bg-neutral-900 rounded-2xl border border-white/10 p-6"
+                            className="bg-white rounded-2xl border border-black p-6"
                         >
                             <div
                                 className="flex justify-between items-center"
                                 onClick={() => setSelectedIndex(faqIndex)}
                             >
-                                <h3 className="font-medium">{faq.question}</h3>
+                                <h3 className="font-medium text-black">{faq.question}</h3>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -61,7 +61,7 @@ export default function Faqs() {
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
                                     className={twMerge(
-                                        "feather feather-plus text-lime-400 flex-shrink-0 transition duration-300",
+                                        "feather feather-plus text-lime-600 flex-shrink-0 transition duration-300",
                                         selectedIndex === faqIndex &&
                                             "rotate-45"
                                     )}
@@ -82,7 +82,7 @@ export default function Faqs() {
                                         height: 0,
                                         marginTop: 0,
                                     }} className={twMerge("overflow-hidden")}>
-                                        <p className="text-white/50">
+                                        <p className="text-black">
                                             {faq.answer}
                                         </p>
                                     </motion.div>

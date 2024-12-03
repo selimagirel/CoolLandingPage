@@ -105,15 +105,15 @@ export default function Hero() {
                         ✨$7.5M seed round raised
                     </div>
                 </div>
-                <h1 className="text-6xl lg:text-8xl md:text-7xl font-medium text-center mt-6">
+                <h1 className="text-6xl lg:text-8xl md:text-7xl font-medium text-center mt-6 text-black">
                     Impactful design, created effortlessly
                 </h1>
-                <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
+                <p className="text-center text-xl text-black mt-8 max-w-2xl mx-auto">
                     Upload your CV, select the company that rejected you, and
                     discover the reasons for the rejection along with tips to
                     avoid it in the future.
                 </p>
-                <form className="flex border border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto">
+                <form className="flex border border-black rounded-full p-2 mt-8 max-w-lg mx-auto">
                     <input
                         type="email"
                         placeholder="Enter your email"
@@ -121,7 +121,7 @@ export default function Hero() {
                     />
                     <Button
                         type="submit"
-                        variant="primary"
+                        variant="hero"
                         className="whitespace-nowrap"
                         size="sm"
                     >

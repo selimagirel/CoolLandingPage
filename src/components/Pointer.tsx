@@ -17,7 +17,7 @@ export default function Pointer(props: {
                 stroke-width="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="feather feather-mouse-pointer text-white size-5"
+                className="feather feather-mouse-pointer text-black size-5"
             >
                 <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"></path>
                 <path d="M13 13l6 6"></path>

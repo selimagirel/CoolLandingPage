@@ -29,16 +29,16 @@ export default function Introduction() {
             <div className=" container">
                 <div className="sticky top-20 md:top-28 lg:top-40">
                     <div className="flex justify-center">
-                        <Tag>Introducing Layers</Tag>
+                        <Tag className="text-lime-300 bg-neutral-900">Introducing Layers</Tag>
                     </div>
                     <div className="text-4xl md:text-6xl lg:text-7xl text-center font-medium mt-10">
-                        <span>Your creative process deserves better.</span>{" "}
+                        <span className="text-black">Your creative process deserves better.</span>{" "}
                         <span>
                             {words.map((word, wordIndex) => (
-                                <span className={twMerge(" transition duration-500 text-white/15", wordIndex < currentWord && "text-white")} key={wordIndex}>{`${word} `}</span>
+                                <span className={twMerge(" transition duration-500 text-white/95", wordIndex < currentWord && "text-black")} key={wordIndex}>{`${word} `}</span>
                             ))}
                         </span>
-                        <span className="text-lime-400 block">
+                        <span className="text-lime-600 block">
                             that&apos;s why we built Layers.
                         </span>
                     </div>

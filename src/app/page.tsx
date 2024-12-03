@@ -10,7 +10,7 @@ import Navbar from "@/sections/Navbar";
 
 export default function Home() {
     return (
-        <>
+        <div className="bg-white/90">
             <Navbar />
             <Hero />
             <LogoTicker />
@@ -20,6 +20,6 @@ export default function Home() {
             <Faqs />
             <CallToAction />
             <Footer />
-        </>
+        </div>
     );
 }

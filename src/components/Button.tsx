@@ -4,8 +4,9 @@ import { cva } from "class-variance-authority";
 const classes = cva("border h-12 rounded-full px-6 font-medium", {
     variants: {
         variant: {
-            primary: "bg-lime-400 text-neutral-950 border-green-400",
-            secondary: "border-white text-white bg-transparent ",
+            primary: "bg-neutral-950 text-white border-green-600",
+            secondary: " text-neutral-850 bg-lime-500 text-black border-black",
+            hero: "bg-lime-500 border-black text-black"
         },
         size: {
             sm: "h-10",
@@ -15,7 +16,7 @@ const classes = cva("border h-12 rounded-full px-6 font-medium", {
 
 export default function Button(
     props: {
-        variant: "primary" | "secondary";
+        variant: "primary" | "secondary" | "hero";
         size?: "sm";
     } & ButtonHTMLAttributes<HTMLButtonElement>
 ) {

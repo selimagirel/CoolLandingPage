@@ -48,12 +48,12 @@ export default function Integrations() {
             <div className="container">
                 <div className="grid lg:grid-cols-2 items-center lg:gap-16">
                     <div>
-                        <Tag>Integrations</Tag>
-                        <h2 className="text-6xl font-medium mt-6">
+                        <Tag className="bg-black">Integrations</Tag>
+                        <h2 className="text-6xl font-medium mt-6 text-black">
                             Plays well with{" "}
-                            <span className="text-lime-400">others</span>
+                            <span className="text-lime-600">others</span>
                         </h2>
-                        <p className="text-white/50 mt-4 text-lg">
+                        <p className="text-neutral-900 mt-4 text-lg">
                             Layers seamlessly connects with your favorite tools,
                             making it easy to plug into any workflow and
                             collaborate accros platforms.
